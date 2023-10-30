@@ -1,0 +1,16 @@
+﻿<Application x:Class="PathFinding.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:PathFinding"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <SolidColorBrush x:Key="BoardOutline" Color="#423936"></SolidColorBrush>
+            <SolidColorBrush x:Key="NormalTile" Color="White"></SolidColorBrush>
+            <SolidColorBrush x:Key="StartTile" Color="Green"></SolidColorBrush>
+            <SolidColorBrush x:Key="EndTile" Color="Red"></SolidColorBrush>
+            <SolidColorBrush x:Key="DiscoveredTile" Color="Yellow"></SolidColorBrush>
+            <SolidColorBrush x:Key="BlockerTile" Color="Black"></SolidColorBrush>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
